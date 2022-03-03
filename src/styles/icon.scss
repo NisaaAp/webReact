@@ -1,0 +1,50 @@
+@import './colors';
+@import './mixins';
+    
+
+
+.main {
+    width: 100%;
+    padding-bottom: 2rem;
+    background-color: $cream-color;
+}
+.center-text {
+    @include flex-center;
+    justify-content: center;
+    text-align: center;
+    h1 {
+        color: $gray-color;
+        margin-top: 2rem;
+        font-size: 4rem;
+    }
+}
+
+.allExp {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: space-around;
+    gap: 3rem;
+    text-align: center;
+    .exps {
+        p{
+            font-size: medium;
+            font-weight: bold;
+            
+        }
+        
+        align-items: center;
+        .icon {
+            align-items: center;
+            
+            
+            img {
+                border-radius:50%;
+                background-color: rgb(253, 225, 208);
+                width: 7rem;
+                margin-left: 1rem;
+            }
+        }
+     }
+
+}

@@ -1,0 +1,40 @@
+@import './colors';
+
+.second-section {
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:55px;
+    }
+    p{
+        font-style:oblique;
+        font-size: 18px;
+    }
+    background-color: $main-color;
+    width: 100%;
+    height: 100vh;
+    padding: 4rem;
+    padding: bottom 15px;
+
+    .allcart {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4,200px);
+        // overflow: hidden;
+        gap: 2rem;
+    
+    .cart {
+        p {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:22px;
+            // font-weight:bold;  
+        }
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }        
+    }
+}}
